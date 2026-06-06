@@ -222,6 +222,3 @@ app.get("/", (req, res) => res.send("server in running fine!"));
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);
 });
-
-module.exports = app;
-
